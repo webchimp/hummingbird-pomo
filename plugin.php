@@ -77,9 +77,10 @@
 			global $site;
 
 			$this->locale = $key;
+			$locale = strtolower($this->locales[$this->locale]);
 
-			putenv("LANG=" . $this->locales[$this->locale]);
-			setlocale('LC_ALL', $this->locales[$this->locale]);
+			putenv("LANG=" . $locale);
+			setlocale('LC_ALL', $locale);
 			bindtextdomain("hummingbird", $this->locale_directory);
 			textdomain("hummingbird");
 		}

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Webchimp\n"
-"POT-Creation-Date: 2014-04-26 19:23-0600\n"
-"PO-Revision-Date: 2014-04-26 19:24-0600\n"
+"POT-Creation-Date: 2014-04-26 23:03-0600\n"
+"PO-Revision-Date: 2014-04-26 23:04-0600\n"
 "Last-Translator: WebChimp <sistemas@chimp.mx>\n"
 "Language-Team: \n"
 "Language: es_MX\n"
@@ -13,8 +13,14 @@ msgstr ""
 "X-Poedit-Basepath: C:\\xampp\\htdocs\\webchimp\\dev\\pomo\\web\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;_e\n"
 "X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\webchimp\\dev\\pomo\\web\n"
 
 #: C:\xampp\htdocs\webchimp\dev\pomo\web/pages/home-page.php:8
 msgid "Hello world!"
 msgstr "¡Hola Mundo!"
+
+#: C:\xampp\htdocs\webchimp\dev\pomo\web/pages/home-page.php:9
+#: C:\xampp\htdocs\webchimp\dev\pomo\web/parts/sticky-footer/footer.php:5
+msgid "Copyright"
+msgstr "Derechos Reservados"
